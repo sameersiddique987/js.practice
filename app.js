@@ -125,16 +125,16 @@
 // var comparision = 10 <= 10 && 10 < 6 && 10 > 15;
 // console.log(comparision);
 
-var num = 10;
-console.log(num+1)
-console.log(++num)
-console.log(num++)
+// var num = 10;
+// console.log(num+1)
+// console.log(++num)
+// console.log(num++)
 
-console.log(num++)
-console.log(++num)
+// console.log(num++)
+// console.log(++num)
 
 
-console.log(++num + num++ + num++ + num++ + ++num)
+// console.log(++num + num++ + num++ + ++num)
 
 
 
@@ -242,16 +242,115 @@ document.write( '<h1>' + userName + '</h1>')
 
 
 
-var num1 = 2;
-if(num1>8){
-    console.log("8 num se bara h")  
+// var num1 = 2;
+// if(num1>8){
+//     console.log("8 num se bara h")  
+// }
+// else if(num1 > 6){
+//     console.log("6 num bara h")
+// }
+// else{
+//     console.log("2 num se chuta h")
+// }
+
+
+
+
+
+
+
+
+
+
+
+// function greetUser(){
+//     console.log("hello world")
+//     console.log("hello sameer")
+    
+//     return"sameer"
+    
+// }
+
+// var myfunc = greetUser()
+// console.log(myfunc)
+
+
+
+
+
+
+
+
+
+
+// function percentagecal (mark1 ,mark2 , mark3 , mark4){
+//     var totalmarks = 400;
+//     var obtainedmarks = mark1 + mark2 + mark3 + mark4;
+// return obtainedmarks / totalmarks * 100;
+// }
+//  sameerPercentage = percentagecal(40 , 45 , 50 , 70)
+// console.log(sameerPercentage)
+
+
+
+
+
+
+
+
+
+// var head = document.querySelector(".head");
+// console.log(head.innerhtml)
+// head.innerHTML = "change through js"
+// console.log(head.innerHTML)
+
+
+
+
+
+
+
+
+var head = document.querySelector('.head')
+var paragraph = document.querySelector('#para')
+console.log(paragraph.innerHTML)
+
+
+
+function changeText(){
+
+    if(paragraph.innerHTML==="changed through js" && head.innerHTML==="changed through js"){
+        paragraph.innerHTML = "Lorem ipsum dolor sit."
+        head.innerHTML= "hello world"
+    }
+    else {paragraph.innerHTML = "changed through js"
+        head.innerHTML ="changed through js"
 }
-else if(num1 > 6){
-    console.log("6 num bara h")
+
 }
-else{
-    console.log("2 num se chuta h")
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
